@@ -34,14 +34,11 @@ const Footer = () => {
         <FootTwo>
           <FootTwoHold>
             <FootTitle>Home</FootTitle>
-            <FootNav>Event</FootNav>
             <FootNav>Mobile App</FootNav>
             <FootNav>Desktop App</FootNav>
           </FootTwoHold>
           <FootTwoHold>
             <FootTitle>Rent</FootTitle>
-            <FootNav>Pricing</FootNav>
-            <FootNav>Career</FootNav>
             <FootNav>Contact</FootNav>
             <FootNav>Blog</FootNav>
           </FootTwoHold>
@@ -53,9 +50,6 @@ const Footer = () => {
           </FootTwoHold>
           <FootTwoHold>
             <FootTitle>Service</FootTitle>
-            <FootNav> Help</FootNav>
-            <FootNav>Docs</FootNav>
-            {/* <FootNav>Free Training</FootNav> */}
             <FootNav>Contact Sales</FootNav>
           </FootTwoHold>
         </FootTwo>
@@ -71,6 +65,7 @@ const Logo = styled.img`
 `;
 
 const Container = styled.div`
+  height: 290px;
   width: 100%;
   background-color: gray;
   display: flex;
@@ -81,12 +76,12 @@ const Container = styled.div`
   font-family: poppins;
 `;
 const Wrapper = styled.div`
-  width: 1100px;
+  width: 900px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 80px 0;
+  // margin: 50px 0;
 `;
 const FootOne = styled.div`
   width: 250px;
@@ -152,7 +147,7 @@ const FootTitle = styled.div`
 `;
 const FootNav = styled.div`
   font-size: 12px;
-  margin: 10px 0;
+  margin: 5px 0;
   color: #fff;
   cursor: pointer;
   transition: all 350ms;
