@@ -65,7 +65,7 @@ const Logo = styled.img`
 `;
 
 const Container = styled.div`
-  height: 290px;
+  height: 75vhpx;
   width: 100%;
   background-color: gray;
   display: flex;
